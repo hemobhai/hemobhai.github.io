@@ -12,7 +12,7 @@ const items = [
   {
     id: 1,
     title: "Adventour",
-    img: "./assets/adventour-collage-2.png",
+    img: "./pictures/adventour1.png",
     desc: `
         A beautifully animated and entirely user-specific website built on
         <b>React.js and Firebase</b> and many other CSS libraries and framework
@@ -29,12 +29,20 @@ const items = [
   },
   {
     id: 2,
-    title: "BlogsTour.com",
+    title: "Specialized",
     img: "./assets/medium-collage-1.png",
     desc: `
-        A Complete <b>MERN Stack</b> blog website similar to <b>Medium.com</b>
-        which supports CRUD operations and have entirely user specific features
-        like comments, like, unlike, follows etc.
+    Developed a fully functional replica of the "Specialized" website, a popular
+    platform for purchasing bicycles and cycling accessories. This project was
+    part of an educational initiative to deepen my skills in web development and
+    e-commerce.
+    Implemented core e-commerce functionalities, including product listings,
+    shopping cart management, and secure checkout processes.
+    Integrated a simulated payment system to mimic real-world transaction
+    scenarios.
+    Applied responsive design principles to optimize the user experience
+    across various devices.
+    
       `,
     techStack: [
       "./assets/react.svg",
@@ -43,14 +51,20 @@ const items = [
       "./assets/nodejs1.png",
       "./assets/redux.svg",
     ],
-    live: "https://medium-blog-app-pi.vercel.app/",
-    github: "https://github.com/Faisal25DEC/BlogTour",
+    live: "https://specialized-cycles.netlify.app/index.html",
+    github: "",
   },
   {
     id: 5,
-    title: "Socialms",
+    title: "BigBasket",
     img: "./assets/twitter-collage-2.png",
-    desc: ` A full fledged social media platforms inpired by <b>Twitter</b> which supports messages, create posts edit profiles and users can send images in messages as well`,
+    desc: ` Developed a comprehensive clone of the "BigBasket" website, a leading
+    online grocery platform. This educational project aimed to enhance my
+    proficiency in web development, e-commerce, and user experience design.
+    Implemented dynamic features such as product catalog browsing, cart
+    management, and an efficient checkout process. Integrated backend functionality for user authentication, order processing,
+    and database management to simulate real-world e-commerce
+    operations.`,
     techStack: [
       "./assets/next.svg",
       "./assets/mongo.svg",
@@ -58,57 +72,8 @@ const items = [
       "./assets/prisma.svg",
       "./assets/firebase.svg",
     ],
-    live: "https://twitter-clone-faisal25dec.vercel.app/",
-    github: "https://github.com/Faisal25DEC/Socialms-twitter-inspired",
-  },
-  {
-    id: 6,
-    title: "Jotion",
-    img: "./assets/jotion-collage.png",
-    desc: ` A Note management platform inspired by Notion.com that incoporating features like <b>Nested children notes</b>, <b>Note smart restore</b>, publishing, deleting and full authorization and authentication`,
-    techStack: [
-      "./assets/next.svg",
-      "./assets/convex.svg",
-      "./assets/clerk.webp",
-      "./assets/edgestore.png",
-    ],
-    live: "https://note-management-platform.vercel.app/",
-    github: "https://github.com/Faisal25DEC/note-management-platform",
-  },
-  {
-    id: 3,
-    title: "Alcazar Travel Agency",
-    img: "./assets/alcazar-collage-1.png",
-    desc: ` 
-        <b>User Specific Vanilla Javascript E-commerce website</b>, built on
-        HTML, CSS, Javascript, Firebase and JSON-Server`,
-    techStack: [
-      "./assets/html.svg",
-      "./assets/css.svg",
-      "./assets/js.svg",
-      "./assets/json-server.png",
-      "./assets/firebase.svg",
-    ],
-    live: "https://alcazar-masai.netlify.app/pages/product",
-    github: "https://github.com/Faisal25DEC/Alcazar-Travel-Agency",
-  },
-  {
-    id: 4,
-    title: "Instagram Clone",
-    img: "./assets/instgram-collage-1.png",
-    desc: `
-        A complete working clone of Instagram where users can Create Posts,
-        <b>Update their profiles</b>, and have all features of instagram
-      `,
-    techStack: [
-      "./assets/react.svg",
-      "./assets/nodejs1.png",
-      "./assets/mongo.svg",
-      "./assets/chakra.png",
-      "./assets/redux.svg",
-    ],
-    live: "https://instaclonevi.netlify.app/",
-    github: "https://github.com/Faisal25DEC/Insta_Social",
+    live: "https://bigbasket-team02.netlify.app/",
+    github: "",
   },
 ];
 
