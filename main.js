@@ -12,20 +12,22 @@ const items = [
   {
     id: 1,
     title: "Adventour",
-    img: "./pictures/adventour1.png",
+    img: "",
     desc: `
         A beautifully animated and entirely user-specific website built on
         <b>React.js and Firebase</b> and many other CSS libraries and framework
         for design
       `,
     techStack: [
-      "./assets/react.svg",
-      "./assets/firebase.svg",
-      "./assets/bootstrap.svg",
-      "./assets/json-server.png",
+      "./pictures/html5.jpg",
+      "./pictures/react.jpg",
+      "./pictures/css3.jpg",
+      "./pictures/1175544_firebase_google_icon.png",
+      "./pictures/bootstrapp.png",
+      "./pictures/json-file.png",
     ],
     live: "https://adventourr-masai.netlify.app/",
-    github: "https://github.com/Faisal25DEC/adventour",
+    github: "",
   },
   {
     id: 2,
@@ -45,11 +47,11 @@ const items = [
     
       `,
     techStack: [
-      "./assets/react.svg",
-      "./assets/mongo.svg",
-      "./assets/chakra.png",
-      "./assets/nodejs1.png",
-      "./assets/redux.svg",
+      "./pictures/html5.jpg",
+      "./pictures/css3.jpg",
+      "./pictures/javascript.jpg",
+      "./pictures/bootstrapp.jpg",
+      
     ],
     live: "https://specialized-cycles.netlify.app/index.html",
     github: "",
@@ -66,11 +68,11 @@ const items = [
     and database management to simulate real-world e-commerce
     operations.`,
     techStack: [
-      "./assets/next.svg",
-      "./assets/mongo.svg",
-      "./assets/tailwind.svg",
-      "./assets/prisma.svg",
-      "./assets/firebase.svg",
+      "./pictures/html5.jpg",
+      "./pictures/css3.jpg",
+      "./pictures/javascript.jpg",
+      "./pictures/bootstrapp.jpg",
+      
     ],
     live: "https://bigbasket-team02.netlify.app/",
     github: "",
@@ -102,13 +104,13 @@ items.forEach((item, index) => {
         href=${item.github}
         target="_blank"
         class="project-github-link"
-        ><img src="./assets/github.png" alt="" /><span>Github</span></a
+        ><img src="./pictures/github-mark-white.png" alt="" /><span>Github</span></a
       >
       <a
         href=${item.live}
         target="_blank"
         class="project-deployed-link"
-        ><img src="./assets/netlify.png" alt="" />Live</a
+        ><img src="./pictures/live.jpg" alt="" />Live</a
       >
     </div>
     <div class="tech-stack">
