@@ -502,10 +502,11 @@ section{
     display: flex;
     align-items: center;
     gap: 0.4rem;
+    color: #ededed;
   }
   .project-links img {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
   }
   
   .project-view-more {
@@ -526,4 +527,7 @@ section{
   .project-view-more button:hover {
     cursor: pointer;
     opacity: 0.7;
+  }
+  .project-github-link span{
+    color: rgb(222, 225, 216);
   }
