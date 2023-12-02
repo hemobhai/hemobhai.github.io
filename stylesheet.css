@@ -170,10 +170,11 @@ body{
 }
 .about-img img {
     padding-bottom: 20%;
-    max-width: 630px;
+    max-width: 450px;
     height: auto;
     width: 100%;
     border-radius: 8px;
+    margin-left: 10%;
 }
 
 .about-text h2{
@@ -409,6 +410,12 @@ section{
     width: 96%;
     margin: auto;
   }
+
+  .projects-container img {
+    
+    width: 450px;
+    height: 400px;
+  }
   .project-card {
     position: relative;
     background: var(--color-gray-100);
@@ -468,7 +475,7 @@ section{
   }
   .project-description {
     font-weight: 500;
-    color: rgb(86, 86, 86);
+    color: rgb(223, 223, 223);
     font-size: 25px;
   }
   .project-description > * {
@@ -621,4 +628,53 @@ button {
 
 button:hover {
     background-color: #2e87c7;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .header {
+        padding: 20px 5%;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-text {
+        margin: 0;
+    }
+
+    .container1 {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .projects-container {
+        width: 100%;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+    }
+
+    .contact-info div {
+        width: 100%;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
 }

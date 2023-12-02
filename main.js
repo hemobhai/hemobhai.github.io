@@ -12,7 +12,7 @@ const items = [
   {
     id: 1,
     title: "Adventour",
-    img: "",
+    img: "./pictures/adventourclone.jpg",
     desc: `
         A beautifully animated and entirely user-specific website built on
         <b>React.js and Firebase</b> and many other CSS libraries and framework
@@ -32,7 +32,7 @@ const items = [
   {
     id: 2,
     title: "Specialized",
-    img: "./assets/medium-collage-1.png",
+    img: "./pictures/specializedcollege.jpg",
     desc: `
     Developed a fully functional replica of the "Specialized" website, a popular
     platform for purchasing bicycles and cycling accessories. This project was
@@ -50,7 +50,7 @@ const items = [
       "./pictures/html5.jpg",
       "./pictures/css3.jpg",
       "./pictures/javascript.jpg",
-      "./pictures/bootstrapp.jpg",
+      "./pictures/bootstrapp.png",
       
     ],
     live: "https://specialized-cycles.netlify.app/index.html",
@@ -59,7 +59,7 @@ const items = [
   {
     id: 5,
     title: "BigBasket",
-    img: "./assets/twitter-collage-2.png",
+    img: "./pictures/bigbasketcollege.jpg",
     desc: ` Developed a comprehensive clone of the "BigBasket" website, a leading
     online grocery platform. This educational project aimed to enhance my
     proficiency in web development, e-commerce, and user experience design.
@@ -71,7 +71,7 @@ const items = [
       "./pictures/html5.jpg",
       "./pictures/css3.jpg",
       "./pictures/javascript.jpg",
-      "./pictures/bootstrapp.jpg",
+  
       
     ],
     live: "https://bigbasket-team02.netlify.app/",
