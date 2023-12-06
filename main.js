@@ -6,6 +6,31 @@ var typed = new Typed(".text", {
   loop: true,
 });
 
+// Function to trigger download and redirect
+function downloadAndRedirect() {
+  // Your Google Drive link
+  var driveLink =
+    "https://drive.google.com/file/d/1itOuMog_xoCSHfX0m6Ndw9Rs1g6EMEQz/view?usp=sharing";
+
+  // Create a hidden link element
+  var link = document.createElement("a");
+  link.href = driveLink;
+  link.download = "Himanshu-Sharan-Resume.pdf";
+  link.style.display = "none";
+
+  // Append the link to the document
+  document.body.appendChild(link);
+
+  // Trigger a click on the link to initiate the download
+  link.click();
+
+  // Remove the link from the document
+  document.body.removeChild(link);
+
+  // Redirect to Google Drive link
+  window.location.href = driveLink;
+}
+
 const projectContainer = document.querySelector(".projects-container");
 
 const items = [
