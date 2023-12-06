@@ -27,7 +27,7 @@ const items = [
       "./pictures/json-file.png",
     ],
     live: "https://adventourr-masai.netlify.app/",
-    github: "",
+    github: "https://github.com/Faisal25DEC/adventour",
   },
   {
     id: 2,
@@ -51,10 +51,9 @@ const items = [
       "./pictures/css3.jpg",
       "./pictures/javascript.jpg",
       "./pictures/bootstrapp.png",
-      
     ],
     live: "https://specialized-cycles.netlify.app/index.html",
-    github: "",
+    github: "https://github.com/VinodKumarGgithub/Specialized-",
   },
   {
     id: 5,
@@ -71,11 +70,9 @@ const items = [
       "./pictures/html5.jpg",
       "./pictures/css3.jpg",
       "./pictures/javascript.jpg",
-  
-      
     ],
     live: "https://bigbasket-team02.netlify.app/",
-    github: "",
+    github: "https://github.com/hemobhai/BigBasket",
   },
 ];
 
