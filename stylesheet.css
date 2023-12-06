@@ -169,11 +169,11 @@ body{
 
 }
 .about-img img {
-    padding-bottom: 20%;
+   
     max-width: 450px;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
+    height: 500;
+    width: 500;
+    border-radius: 10%;
     margin-left: 10%;
 }
 
@@ -631,43 +631,160 @@ button:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
+
+
+
+/* General styles for the Tools section */
+
+
+#tools {
+    padding: 20px;
+  
+  
+}
+
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tool {
+    text-align: center;
+    margin: 10px;
+}
+
+.tool-image {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+/* General Styles */
+/* ... (existing styles) */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 1200px) {
     .header {
         padding: 20px 5%;
     }
 
+    .logo,
     .navbar a {
-        font-size: 16px;
+        font-size: 20px;
     }
 
-    .home-content h1 {
-        font-size: 40px;
+    .home-content h3,
+    .home-content h1,
+    .home-content p {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home {
+        padding: 70px 5% 0;
     }
 
-    .about {
+    .home-content h3,
+    .home-content h1,
+    .home-content p {
+        font-size: 100%;
+    }
+
+    .navbar {
         flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 0;
+        width: 100%;
+        background: #051129;
+        height: auto;
+        padding: 20px 0;
+ 
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .navbar a {
+        margin: 15px 0;
+        opacity: 1;
+    }
+
+    .navbar a.active {
+        background-color: transparent;
+    }
+
+    .home-sci {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 
     .about-img img {
-        width: 100%;
-        margin-bottom: 20px;
+        margin-left: 0;
+        padding-bottom: 0;
     }
 
     .about-text {
-        margin: 0;
+        margin-top: 20px;
+    }
+
+    .about-text h2 {
+        font-size: 40px;
+    }
+
+    .about-text h4 {
+        font-size: 24px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+    }
+
+    .sub-title {
+        font-size: 40px;
     }
 
     .container1 {
         width: 100%;
-        padding: 20px;
+        margin-left: 0;
     }
 
-    .projects-container {
-        width: 100%;
+    .heading1 {
+        font-size: 30px;
+    }
+
+    .Technical-bars .bar {
+        margin-top: 20px;
+    }
+
+    .Technical-bars .bar .info span {
+        font-size: 15px;
+    }
+
+    .project-header-title {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .project-github-link span {
+        font-size: 14px;
     }
 
     .contact-info {
-        margin-top: 20px;
+        margin: 40px;
     }
 
     .contact-info div {
@@ -676,5 +793,26 @@ button:hover {
 
     .contact-form {
         max-width: 100%;
+    }
+
+    .contact-form h2 {
+        font-size: 24px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px;
     }
 }
